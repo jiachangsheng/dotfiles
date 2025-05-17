@@ -1,7 +1,5 @@
 # Prompt
 Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt Paradox
 
 # Alias
 Set-Alias vm nvim
@@ -25,3 +23,5 @@ function init-env{
     scoop install git neovim pwsh python nodejs curl wget unzip 7zip
     nvim --version
   }
+
+oh-my-posh init pwsh | Invoke-Expression
