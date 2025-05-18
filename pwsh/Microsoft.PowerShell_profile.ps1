@@ -1,5 +1,10 @@
 # Prompt
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/tokyo.omp.json" | Invoke-Expression
 Import-Module posh-git
+
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+Set-PSReadLineOption -PredictionViewStyle ListView
+
 
 # Alias
 Set-Alias vm nvim
@@ -24,4 +29,3 @@ function init-env{
     nvim --version
   }
 
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/tokyo.omp.json' | Invoke-Expression

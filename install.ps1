@@ -6,3 +6,7 @@ scoop install zebar translucenttb vitrite glazewm
 
 scoop install qq wechat telegram epic-game-launcher jetbrains-toolbox
 
+Install-Module posh-git -Scope CurrentUser -Force
+Install-Module oh-my-posh -Scope CurrentUser -Force
+
+scoop install nvm
