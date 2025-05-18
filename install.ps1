@@ -13,3 +13,4 @@ scoop install nvm
 
 
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force 
+
