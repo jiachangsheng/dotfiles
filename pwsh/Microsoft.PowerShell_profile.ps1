@@ -1,10 +1,11 @@
-# Prompt
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/tokyo.omp.json" | Invoke-Expression
-Import-Module posh-git
-Import-Module Terminal-Icons
-
 Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 Set-PSReadLineOption -PredictionViewStyle ListView
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/tokyo.omp.json" | Invoke-Expression
+
+Import-Module posh-git
+
+Import-Module Terminal-Icons
 
 
 # Alias
