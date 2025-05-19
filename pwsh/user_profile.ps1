@@ -8,7 +8,7 @@ oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 Import-Module -Name Terminal-Icons
 
 # PSReadLine
-Set-PSReadLineOption -EditMode Emacs
+Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
