@@ -13,7 +13,7 @@ Set-PSReadLineOption -EditMode Emacs
 # Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -PredictionSource History
-# set-PSReadLineOption -PredictionviewStyle ListView
+set-PSReadLineOption -PredictionviewStyle ListView
 # 将 Ctrl+h 映射为 ←
 Set-PSReadLineKeyHandler -Chord 'Ctrl+h' -Function BackwardChar
 
@@ -32,11 +32,17 @@ Set-PSReadLineKeyHandler -Chord 'Ctrl+k' -Function PreviousHistory
 Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
+# 添加到 profile.ps1 中
+Invoke-Expression (& { $(zoxide init powershell | Out-String) })
+
+# 现在你可以用：
+z project   # 跳转到常用项目目录
+zi          # 启动 fzf 界面选择路径
 # Env
 $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 
 # Alias
-Set-Alias -Name vim -Value nvim
+Set-Alias vim nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias grep findstr
