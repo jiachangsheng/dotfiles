@@ -13,9 +13,7 @@ Set-PSReadLineOption -EditMode Emacs
 # Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -PredictionSource History
-<<<<<<< HEAD
 # set-PSReadLineOption -PredictionviewStyle ListView
-=======
 # 将 Ctrl+h 映射为 ←
 Set-PSReadLineKeyHandler -Chord 'Ctrl+h' -Function BackwardChar
 
@@ -29,7 +27,6 @@ Set-PSReadLineKeyHandler -Chord 'Ctrl+j' -Function NextHistory
 Set-PSReadLineKeyHandler -Chord 'Ctrl+k' -Function PreviousHistory
 # Set-PSReadLineKeyHandler -Chord "Ctrl+l" -Function AcceptSuggestion
 # Set-PSReadLineKeyHandler -Chord "Ctrl+h" -Function Backwardkillword
->>>>>>> e58ab14ab56c2b7b7014e1c73adf4f8c2fef5bfd
 
 # Fzf
 Import-Module PSFzf
