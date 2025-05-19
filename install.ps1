@@ -4,7 +4,7 @@ scoop install chromium listary hibit-uninstaller
 
 scoop install zebar translucenttb vitrite glazewm
 
-scoop install qq wechat telegram epic-game-launcher jetbrains-toolbox
+scoop install qq wechat telegram  jetbrains-toolbox
 
 scoop install nvm fzf
 
