@@ -9,11 +9,23 @@ oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 Import-Module -Name Terminal-Icons
 
 # PSReadLine
-# Set-PSReadLineOption -EditMode Emacs
-Set-PSReadLineOption -EditMode vi
+Set-PSReadLineOption -EditMode Emacs
+# Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -BellStyle None
-Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
+# 将 Ctrl+h 映射为 ←
+Set-PSReadLineKeyHandler -Chord 'Ctrl+h' -Function BackwardChar
+
+# 将 Ctrl+l 映射为 →
+Set-PSReadLineKeyHandler -Chord 'Ctrl+l' -Function ForwardChar
+
+# 将 Ctrl+j 映射为 ↓（下一个历史命令）
+Set-PSReadLineKeyHandler -Chord 'Ctrl+j' -Function NextHistory
+
+# 将 Ctrl+k 映射为 ↑（上一个历史命令）
+Set-PSReadLineKeyHandler -Chord 'Ctrl+k' -Function PreviousHistory
+# Set-PSReadLineKeyHandler -Chord "Ctrl+l" -Function AcceptSuggestion
+# Set-PSReadLineKeyHandler -Chord "Ctrl+h" -Function Backwardkillword
 
 # Fzf
 Import-Module PSFzf
