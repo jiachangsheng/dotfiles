@@ -25,6 +25,8 @@ Set-PSReadLineKeyHandler -Chord 'Ctrl+j' -Function NextHistory
 
 # 将 Ctrl+k 映射为 ↑（上一个历史命令）
 Set-PSReadLineKeyHandler -Chord 'Ctrl+k' -Function PreviousHistory
+
+
 # Set-PSReadLineKeyHandler -Chord "Ctrl+l" -Function AcceptSuggestion
 # Set-PSReadLineKeyHandler -Chord "Ctrl+h" -Function Backwardkillword
 
@@ -35,9 +37,6 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 # 添加到 profile.ps1 中
 Invoke-Expression (& { $(zoxide init powershell | Out-String) })
 
-# 现在你可以用：
-z project   # 跳转到常用项目目录
-zi          # 启动 fzf 界面选择路径
 # Env
 $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 

@@ -15,7 +15,7 @@
       <S N="Copyright">(c) 2020 Jan De Dobbeleer. All rights reserved.</S>
       <DT N="PublishedDate">2022-05-17T07:00:14+08:00</DT>
       <Obj N="InstalledDate" RefId="1">
-        <DT>2025-05-19T09:23:15.4273776+08:00</DT>
+        <DT>2025-05-20T09:05:50.7244181+08:00</DT>
         <MS>
           <Obj N="DisplayHint" RefId="2">
             <TN RefId="1">
@@ -59,23 +59,8 @@
         </TN>
         <DCT>
           <En>
-            <S N="Key">DscResource</S>
+            <S N="Key">Function</S>
             <Obj N="Value" RefId="5">
-              <TNRef RefId="2" />
-              <LST />
-            </Obj>
-          </En>
-          <En>
-            <S N="Key">RoleCapability</S>
-            <Ref N="Value" RefId="5" />
-          </En>
-          <En>
-            <S N="Key">Workflow</S>
-            <Ref N="Value" RefId="5" />
-          </En>
-          <En>
-            <S N="Key">Command</S>
-            <Obj N="Value" RefId="6">
               <TNRef RefId="2" />
               <LST>
                 <S>Set-PoshPrompt</S>
@@ -84,10 +69,25 @@
           </En>
           <En>
             <S N="Key">Cmdlet</S>
-            <Ref N="Value" RefId="5" />
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
           </En>
           <En>
-            <S N="Key">Function</S>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
             <Obj N="Value" RefId="7">
               <TNRef RefId="2" />
               <LST>
@@ -117,15 +117,15 @@
           <S N="requireLicenseAcceptance">False</S>
           <S N="isLatestVersion">True</S>
           <S N="isAbsoluteLatestVersion">True</S>
-          <S N="versionDownloadCount">2473099</S>
-          <S N="downloadCount">4606347</S>
+          <S N="versionDownloadCount">2473699</S>
+          <S N="downloadCount">4606948</S>
           <S N="packageSize">4046</S>
           <S N="published">2022/5/17 7:00:14 +08:00</S>
           <S N="created">2022/5/17 7:00:14 +08:00</S>
-          <S N="lastUpdated">2025/5/19 1:20:00 +08:00</S>
+          <S N="lastUpdated">2025/5/20 1:00:00 +08:00</S>
           <S N="tags">git agnoster theme zsh posh-git prompt paradox robbyrussel oh-my-posh PSModule PSFunction_Set-PoshPrompt PSCommand_Set-PoshPrompt PSIncludes_Function</S>
           <S N="developmentDependency">False</S>
-          <S N="updated">2025-05-19T01:20:00Z</S>
+          <S N="updated">2025-05-20T01:00:00Z</S>
           <S N="NormalizedVersion">7.85.2</S>
           <S N="Authors">Jan De Dobbeleer</S>
           <S N="IsPrerelease">false</S>
