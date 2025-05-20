@@ -48,3 +48,11 @@ function which ($command) {
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
 
+function HelpNvim {
+    param (
+        [string]$Command
+    )
+    $tmp = "$env:TEMP\$Command-help.txt"
+    Get-Help $Command -Full | Out-File -Encoding utf8 $tmp
+    nvim $tmp
+}
