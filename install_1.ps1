@@ -14,6 +14,4 @@ scoop install extras/xmousebuttoncontrol
 
 scoop install extras/ollama-full
 
-scoop install extras/binance
-
 winget install Chocolatey.Chocolatey
