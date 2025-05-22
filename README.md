@@ -133,20 +133,3 @@ git push -u origin main
 
 # ./install.ps1
 scoop install git neovim pwsh python nodejs curl wget unzip 7zip
-
-# 常用Git命令
-| 命令                         | 说明                        |
-| -------------------------- | ------------------------- |
-| `git clone <repo>`         | 克隆远程 Git 仓库到本地            |
-| `git status`               | 查看当前修改状态                  |
-| `git add <file>` 或 `.`     | 添加修改的文件到暂存区               |
-| `git commit -m "说明"`       | 提交变更到本地仓库                 |
-| `git push origin main`     | 将本地 `main` 分支推送到远程仓库      |
-| `git pull origin main`     | 从远程仓库拉取 `main` 分支并合并到当前分支 |
-| `git log --oneline`        | 查看简洁的提交历史                 |
-| `git branch`               | 查看本地分支                    |
-| `git branch -r`            | 查看远程分支                    |
-| `git checkout -b <branch>` | 新建并切换到新分支                 |
-| `git merge <branch>`       | 合并指定分支到当前分支               |
-| `git remote -v`            | 查看远程仓库地址                  |
-
