@@ -6,7 +6,7 @@ scoop install zebar translucenttb vitrite glazewm
 
 scoop install qq wechat telegram  jetbrains-toolbox
 
-scoop install nvm fzf zoxide
+scoop install nvm fzf zoxide vieb
 
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
