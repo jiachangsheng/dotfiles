@@ -1,3 +1,4 @@
+-- 下载lazy.nvom插件
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
@@ -14,11 +15,12 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- 设置lazy.nvim
 require("lazy").setup({
   spec = {
-    -- add LazyVim and import its plugins
+    -- 加载lazyVim框架和它默认的插件集合
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    -- import/override with your plugins
+    -- 加载你自己写在 lua/plugins/ 目录下的插件配置，覆盖或新增
     { import = "plugins" },
   },
   defaults = {
