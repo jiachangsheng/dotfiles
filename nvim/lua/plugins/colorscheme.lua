@@ -7,7 +7,7 @@ return {
       require("onedark").setup({
         style = "warmer", -- 可选: dark / darker / cool / deep / warm / warmer / light
       })
-      require("onedark").load()
+      require("onedark").unload()
     end,
   },
 }
