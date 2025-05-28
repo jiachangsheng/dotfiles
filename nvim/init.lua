@@ -38,6 +38,21 @@ end)
 
 
 vim.g.neovide_opacity = 0.95
+vim.g.neovide_normal_opacity = 0.95
 
 vim.g.neovide_cursor_vfx_mode = {"railgun"}
 -- vim.g.neovide_cursor_vfx_mode = {"sonicboom"}
+
+vim.api.nvim_create_autocmd({"InsertEnter"}, {
+  pattern = "*",
+  callback = function()
+    vim.opt.relativenumber = false
+  end
+})
+
+vim.api.nvim_create_autocmd({"InsertLeave"}, {
+  pattern = "*",
+  callback = function()
+    vim.opt.relativenumber = true
+  end
+})
