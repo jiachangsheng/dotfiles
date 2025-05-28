@@ -41,7 +41,7 @@ Invoke-Expression (& { $(zoxide init powershell | Out-String) })
 $env:GIT_SSH = "C:\Windows\system32\OpenSSH\ssh.exe"
 
 # Alias
-Set-Alias vim nvim
+Set-Alias vim neovide
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias grep findstr
