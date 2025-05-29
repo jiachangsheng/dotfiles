@@ -62,3 +62,18 @@ function HelpNvim {
     Get-Help $Command -Full | Out-File -Encoding utf8 $tmp
     nvim $tmp
 }
+
+function app {
+    param (
+        [Parameter(Mandatory=$true)]
+        [string]$url
+    )
+
+    $chromePath = "C:\Users\jia.cs\scoop\apps\chromium\current\chrome.exe"
+
+    if (-Not ($url -match "^https?://")) {
+        $url = "https://$url"
+    }
+
+    Start-Process $chromePath "--app=$url"
+}
