@@ -15,3 +15,7 @@ scoop install extras/xmousebuttoncontrol
 scoop install extras/ollama-full
 
 winget install Chocolatey.Chocolatey
+
+scoop bucket add versions
+
+scoop install versions/brave-nightly
