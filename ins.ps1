@@ -3,14 +3,14 @@ scoop bucket add main extras nerd-fonts games
 scoop install git neovim pwsh python nodejs curl wget unzip 7zip gcc make
 scoop install listary hibit-uninstaller
 
-scoop install extras/brave
+scoop install brave sharex
 
 
-scoop install zebar translucenttb glazewm
+scoop install zebar translucenttb glazewm 
 
 scoop install extras/autohotkey
 
-scoop install qq wechat telegram  jetbrains-toolbox
+scoop install qq wechat telegram jetbrains-toolbox
 
 scoop install nvm fzf zoxide vieb
 
