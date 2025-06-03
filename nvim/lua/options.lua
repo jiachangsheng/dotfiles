@@ -1,8 +1,9 @@
 require "nvchad.options"
 
--- add yours here!
-
 vim.o.relativenumber = true
+vim.api.nvim_set_hl(0, "LineNr", { fg = "#111111", bold = false })        -- 相对行号
+vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ffffff", bold = true })  -- 当前行号
+
 vim.o.cursorlineopt ='both'
 -- vim.cmd("highlight Normal guibg=NONE")
 vim.api.nvim_set_hl(0,"Normal",{bg = "NONE"})
@@ -14,6 +15,3 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.hl.on_yank()
   end,
 })
-
-
-
