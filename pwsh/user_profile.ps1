@@ -69,7 +69,7 @@ function app {
         [string]$url
     )
 
-    $chromePath = "C:\Users\jia.cs\scoop\apps\chromium\current\chrome.exe"
+    $chromePath =Join-Path $env:USERPROFILE  "scoop\apps\brave\current\brave.exe"
 
     if (-Not ($url -match "^https?://")) {
         $url = "https://$url"
