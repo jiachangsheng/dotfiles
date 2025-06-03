@@ -35,8 +35,3 @@ vim.schedule(function()
   require "mappings"
 end)
 
-
-vim.g.neovide_opacity = 0.95
-vim.g.neovide_normal_opacity = 0.95
-vim.g.neovide_cursor_vfx_mode = {"railgun"}
--- vim.g.neovide_cursor_vfx_mode = {"sonicboom"}
