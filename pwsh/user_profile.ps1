@@ -7,13 +7,15 @@ $omp_config = Join-Path $PSScriptRoot ".\takuya.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
+Import-Module PSReadLine
 
 # PSReadLine
 Set-PSReadLineOption -EditMode Emacs
 # Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -BellStyle None
-Set-PSReadLineOption -PredictionSource History
 set-PSReadLineOption -PredictionviewStyle ListView
+# Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 # 将 Ctrl+h 映射为 ←
 Set-PSReadLineKeyHandler -Chord 'Ctrl+h' -Function BackwardChar
 
@@ -33,6 +35,7 @@ Set-PSReadLineKeyHandler -Key Escape -ScriptBlock {
 
 Set-PSReadLineKeyHandler -Chord Ctrl+e -Function EndOfLine
 Set-PSReadLineKeyHandler -Chord Ctrl+b -Function BeginningOfLine
+Set-PSReadLineKeyHandler -Key Tab -Function TabCompleteNext
 
 # Set-PSReadLineKeyHandler -Chord "Ctrl+l" -Function AcceptSuggestion
 # Set-PSReadLineKeyHandler -Chord "Ctrl+h" -Function Backwardkillword
