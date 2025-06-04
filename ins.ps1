@@ -13,6 +13,8 @@ scoop install extras/autohotkey
 scoop install qq wechat telegram jetbrains-toolbox
 
 scoop install nvm fzf zoxide vieb
+scoop install main/clangd
+scoop install main/ripgrep
 
 # 开源音频管理器
 scoop bucket add nonportable
