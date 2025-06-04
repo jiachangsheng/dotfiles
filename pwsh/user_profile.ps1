@@ -26,6 +26,13 @@ Set-PSReadLineKeyHandler -Chord 'Ctrl+j' -Function NextHistory
 # 将 Ctrl+k 映射为 ↑（上一个历史命令）
 Set-PSReadLineKeyHandler -Chord 'Ctrl+k' -Function PreviousHistory
 
+Set-PSReadLineKeyHandler -Key Escape -ScriptBlock {
+    [console]::Clear()  # 清除屏幕输出
+    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()  # 清除输入内容
+}
+
+Set-PSReadLineKeyHandler -Chord Ctrl+e -Function EndOfLine
+Set-PSReadLineKeyHandler -Chord Ctrl+b -Function BeginningOfLine
 
 # Set-PSReadLineKeyHandler -Chord "Ctrl+l" -Function AcceptSuggestion
 # Set-PSReadLineKeyHandler -Chord "Ctrl+h" -Function Backwardkillword

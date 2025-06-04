@@ -5,7 +5,6 @@ scoop install listary hibit-uninstaller
 
 scoop install brave sharex
 
-
 scoop install zebar translucenttb glazewm 
 
 scoop install extras/autohotkey
