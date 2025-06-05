@@ -7,6 +7,7 @@ vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#ffffff", bold = true })  -- å½“å
 vim.o.cursorlineopt ='both'
 -- vim.cmd("highlight Normal guibg=NONE")
 vim.api.nvim_set_hl(0,"Normal",{bg = "NONE"})
+vim.opt.shell = "pwsh"
 
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
