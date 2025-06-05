@@ -1,17 +1,34 @@
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
-scoop bucket add main extras nerd-fonts games
-
 winget install Chocolatey.Chocolatey
 winget install Youdao.YoudaoTranslate
 
-scoop install git neovim pwsh python nodejs curl wget unzip 7zip gcc make
-scoop install nvm fzf zoxide vieb
+scoop bucket add main
+scoop bucket add extras
+scoop bucket add games
+scoop bucket add nerd-fonts
+
+scoop install git neovim pwsh python curl wget unzip 7zip gcc make
+
+# 适用于 Windows 的 node.js 版本管理实用程序。
+scoop install main/nvm
+scoop install main/nodejs
+
+# 通用命令行模糊查找器
+scoop install main/fzf
+# 更快的文件系统导航方式
+scoop install main/zoxide
+# Vim Inspired Electron 浏览器
+scoop install extras/vieb
 scoop install main/clangd
 scoop install main/ripgrep
 
-scoop install qq wechat telegram jetbrains-toolbox
+scoop install nerd-fonts/JetBrains-Mono
+scoop install extras/jetbrains-toolbox
+scoop install extras/telegram
+scoop install extras/wechat
+scoop install extras/qq
 #桌面管理
 scoop install extras/glazewm
 scoop install extras/translucenttb
@@ -28,9 +45,9 @@ Install-Module -Name Z -Force
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 Install-Module -Name PSFzf -Scope CurrentUser -Force
-scoop install extras/notepadplusplus
 scoop install extras/vcredist2022
 scoop install extras/vscode
+scoop install extras/notepadplusplus
 scoop install extras/sublime-text
 scoop install extras/ollama-full
 scoop install extras/sweethome3d
