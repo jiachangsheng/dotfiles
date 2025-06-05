@@ -1,4 +1,6 @@
+# 设置管理员权限
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# 安装scoop
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 winget install Chocolatey.Chocolatey
