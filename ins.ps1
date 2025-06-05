@@ -104,3 +104,5 @@ scoop install extras/sharex
 scoop install extras/obs-studio
 # 适用于 Windows 的终极自动化脚本语言。
 scoop install extras/autohotkey
+# 一个现代的双窗格文件管理器，具有选项卡、列视图、内置预览、可编辑主题等。
+scoop install extras/onecommander
