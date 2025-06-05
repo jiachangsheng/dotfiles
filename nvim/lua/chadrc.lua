@@ -9,7 +9,7 @@ M.base46 = {
   theme = "ayu_dark",
 
   hl_override = {
-    Normal = {     bg = "NONE" },
+    Normal = { bg = "NONE" },
     NormalNC = { bg = "NONE" },
     NormalFloat = { bg = "NONE" },
     FloatBorder = { bg = "NONE" },
