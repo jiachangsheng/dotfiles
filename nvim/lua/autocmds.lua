@@ -51,7 +51,7 @@ autocmd({ "UIEnter", "BufReadPost", "BufNewFile" }, {
 local yank_group = augroup("CustomHighlightYank", { clear = true })
 autocmd("TextYankPost", {
   group = yank_group,
-  desc = "Highlight text on yank (copy)",
+  desc = "高亮复制的文本",
   callback = function()
     vim.highlight.on_yank()
   end,
