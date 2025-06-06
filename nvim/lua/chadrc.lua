@@ -9,7 +9,7 @@ local M = {}
 -- ========================================
 M.base46 = {
   -- 使用的主题名称，需在 base46/themes/ 中存在
-  theme = "ayu_dark",
+  theme = "glow_dark",
 
   -- 自定义高亮组（highlight group）覆盖
   hl_override = {
