@@ -1,4 +1,3 @@
-
 -- 快捷键映射设置（map = vim.keymap.set）
 local map = vim.keymap.set
 
@@ -27,6 +26,10 @@ map("n", "<C-k>", "<C-w>k", { desc = "切换到上方窗口" })
 map("n", "<Esc>", "<cmd>noh<CR>", { desc = "清除高亮" })
 map({ "n", "i", "v" }, "<C-s>", "<cmd>w<CR>", { desc = "保存文件" })
 map("n", "<C-c>", "<cmd>%y+<CR>", { desc = "复制整篇文件内容" })
+map("n", "<C-x>", function()
+  vim.cmd "%y+" -- 复制整篇内容到系统剪贴板
+  vim.cmd ":%delete" -- 删除整篇内容
+end, { desc = "剪切整篇文件内容" })
 
 --------------------------------------------------------------------------------
 -- 行号切换
@@ -76,7 +79,12 @@ map("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "聚焦文件树窗口"
 -- Telescope 搜索功能
 --------------------------------------------------------------------------------
 map("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "搜索文件" })
-map("n", "<leader>fa", "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>", { desc = "搜索所有文件" })
+map(
+  "n",
+  "<leader>fa",
+  "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
+  { desc = "搜索所有文件" }
+)
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "全局文本搜索" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "搜索打开的缓冲区" })
 map("n", "<leader>fh", "<cmd>Telescope help_tags<CR>", { desc = "搜索帮助文档" })
