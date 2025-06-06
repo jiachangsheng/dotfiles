@@ -7,7 +7,7 @@ return {
   -- 安装配置部分
   -- 如果没有手动设置 colorscheme，lazy.nvim 会尝试加载 "nvchad" 主题
   -- 注意："nvchad" 不是 Neovim 官方的主题，而是 NvChad 框架中基于 base46 动态生成的主题
-  install = { colorscheme = { "nvchad" } },
+  -- install = { colorscheme = { "nvchad" } },
 
   -- Lazy.nvim 的界面配置
   ui = {
