@@ -3,8 +3,8 @@
 # Rename-Item "$env:LOCALAPPDATA\nvim" "nvim_backup" -ErrorAction SilentlyContinue
 
 # 进入 dotfiles 目录
-# cd ~/dotfiles
-
+# $PWD 代表当前工作目录
 # 创建 nvim 目录软链接
-New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim" -Target "$PWD\lazyvim"
+# New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim" -Target "$env:USERPROFILE\dotfiles\lazyvim"
+New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim" -Target "$pwd"
 
