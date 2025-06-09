@@ -106,5 +106,3 @@ scoop install extras/obs-studio
 scoop install extras/autohotkey
 # 一个现代的双窗格文件管理器，具有选项卡、列视图、内置预览、可编辑主题等。
 scoop install extras/onecommander
-scoop install stylua
-scoop install main/stylua
