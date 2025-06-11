@@ -34,6 +34,7 @@ scoop install main/nvm
 scoop install main/nodejs
 
 scoop install extras/brave
+scoop install extras/ungoogled-chromium
 scoop install extras/qq
 scoop install extras/wechat
 scoop install extras/telegram
@@ -106,3 +107,9 @@ scoop install extras/obs-studio
 scoop install extras/autohotkey
 # 一个现代的双窗格文件管理器，具有选项卡、列视图、内置预览、可编辑主题等。
 scoop install extras/onecommander
+# 开源的本地网络设备通讯工具
+scoop install extras/kdeconnect
+# 开源的vscode，更安全
+scoop install extras/vscodium
+# 最好的开源播放器
+scoop install extras/vlc
