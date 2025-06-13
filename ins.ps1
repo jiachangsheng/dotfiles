@@ -1,3 +1,5 @@
+#添加HOME为环境变量
+# [System.Environment]::SetEnvironmentVariable("HOME", "C:\Users\jia.cs", "User")
 # 设置管理员权限
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # 安装scoop
