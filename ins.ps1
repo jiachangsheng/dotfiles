@@ -17,6 +17,7 @@ scoop bucket add versions
 scoop install nerd-fonts/Hack-NF
 scoop install nerd-fonts/Hack-NF-Mono
 scoop install nerd-fonts/JetBrains-Mono
+scoop install nerd-fonts/SourceCodePro-NF-Mono
 
 scoop install main/git
 scoop install main/neovim
