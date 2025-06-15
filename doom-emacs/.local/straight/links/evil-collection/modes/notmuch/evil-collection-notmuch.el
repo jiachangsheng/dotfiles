@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-collection/modes/notmuch/evil-collection-notmuch.el

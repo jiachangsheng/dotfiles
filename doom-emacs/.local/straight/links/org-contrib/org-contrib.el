@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/org-contrib/lisp/org-contrib.el

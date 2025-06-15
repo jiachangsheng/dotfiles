@@ -1,0 +1,27 @@
+- Using Emacs 30.1 @ c:/Users/jiacs/scoop/apps/emacs/current/bin/emacs.exe
+> Synchronizing "default" profile...
+  > Regenerating envvars file
+    ✓ Generated ~/doom-emacs/.local/env
+  > Ensuring packages are installed and built...
+    - No packages need attention
+  > Updating pinned packages...
+    x The package manager threw an error
+    x Last 16 lines of straight's error log:
+      fatal: not in a git directory
+      [Return code: 128]
+      $ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/melpa/"
+      $ "git" "config" "core.autocrlf" "true"
+      fatal: not in a git directory
+      [Return code: 128]
+      $ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/magit/"
+      $ "git" "rev-parse" "HEAD"
+      fatal: detected dubious ownership in repository at 'C:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/magit'
+      'C:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/magit' is owned by:
+      	BUILTIN/Administrators (S-1-5-32-544)
+      but the current user is:
+      	JIA/jiacs (S-1-5-21-1785769128-5011910-987862172-1001)
+      To add an exception for this directory, call:
+      	git config --global --add safe.directory C:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/magit
+      [Return code: 128]
+    ! Wrote extended straight log to ~/doom-emacs/.local/state/logs/cli.doom.250615145745.6728.error
+✓ Finished in 5.74003s

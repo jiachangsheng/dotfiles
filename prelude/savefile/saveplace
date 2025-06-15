@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("c:/Users/jiacs/dotfiles/doom-emacs/bin/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/doom-emacs/bin/doom.ps1"))
+ ("c:/Users/jiacs/dotfiles/doom-emacs/bin/doom.ps1" . 473)
+ ("c:/Users/jiacs/dotfiles/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/.emacs-profiles.el"))
+ ("c:/Users/jiacs/dotfiles/.emacs-profiles.el" . 168)
+ ("c:/Users/jiacs/dotfiles/.ssh/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/.ssh/id_rsa"))
+ ("c:/Users/jiacs/dotfiles/.doom.d/config.el" . 884)
+ ("c:/Users/jiacs/dotfiles/.doom.d/"
+  (dired-filename . "c:/Users/jiacs/dotfiles"))
+ ("c:/Users/jiacs/" (dired-filename . "c:/Users/jiacs/dotfiles"))
+ ("c:/Users/jiacs/dotfiles/doom-emacs/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/doom-emacs/.local"))
+ ("c:/Users/jiacs/dotfiles/doom-emacs/.local/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/doom-emacs/.local/env"))
+ ("c:/Users/jiacs/dotfiles/doom-emacs/.local/env" . 751)
+ ("c:/Users/jiacs/dotfiles/ins.ps1" . 1947)
+ ("c:/Users/jiacs/scoop/apps/emacs/current/bin/" . 37)
+ ("c:/Users/jiacs/scoop/apps/emacs/current/" . 14)
+ ("c:/Users/" (dired-filename . "c:/Users/jiacs"))
+ ("c:/Users/jiacs/dotfiles/.git/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/.git/COMMIT_EDITMSG"))
+ ("c:/Users/jiacs/dotfiles/.erc/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/.erc/logs"))
+ ("c:/Users/jiacs/dotfiles/.emacs.d/"
+  (dired-filename . "c:/Users/jiacs/dotfiles/.emacs.d/personal"))
+ ("c:/Users/jiacs/scoop/apps/" . 21) ("c:/Users/jiacs/scoop/" . 448)
+ ("c:/Users/jiacs/Documents/"
+  (dired-filename . "c:/Users/jiacs/Documents/My Music"))
+ ("c:/Users/jiacs/.config/" . 203)
+ ("c:/Users/jiacs/.config/scoop/" . 182)
+ ("c:/Users/jiacs/scoop/apps/emacs/current/bin/libbrotlienc.dll"
+  . 7271)
+ ("c:/Users/jiacs/scoop/shims/"
+  (dired-filename . "c:/Users/jiacs/scoop/shims/scoop.ps1"))
+ ("c:/Users/jiacs/dotfiles/nvim/init.lua" . 965)
+ ("c:/Users/jiacs/dotfiles/nvim/lazy-lock.json" . 1487)
+ ("c:/Users/jiacs/dotfiles/nvim/"
+  (dired-filename . "c:/Users/jiacs/dotfiles"))
+ ("c:/Users/jiacs/dotfiles/.emacs.d/init.el" . 6037))

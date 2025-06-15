@@ -1,0 +1,91 @@
+Usage: doom COMMAND [ARGS...]
+
+A command line interface to Doom Emacs.
+
+Includes package management, diagnostics, unit tests, and byte-compilation.
+
+This tool also makes it trivial to launch Emacs out of a different folder or
+with a different private module.
+
+COMMANDS:
+  version      Show installed versions of Doom, Doom modules, and Emacs.
+  help         Show documentation for a Doom CLI command.
+  info         Print detailed information about your config for bug reports.
+  
+  emacs:
+    gc         Deletes orphaned packages & repos, and compacts them.
+  
+  Config Management:
+    env [бн]   (Re)generates envvars file from your shell environment.
+    install    Installs and sets up Doom Emacs for the first time.
+    profiles   An obsolete alias for 'doom profile sync --all'.
+  
+  Development:
+    ci [бн]    Commands that automate development processes.
+    make [бн]   (Re)Generate project files and boilerplate.
+    run        Launch Doom Emacs or an Emacs sandbox
+  
+  Module commands:
+    +org [бн]   Commands to invoke Org's powerful capabilities.
+  
+ENVIRONMENT VARIABLES:
+  $EMACS
+    The Emacs executable or command to use for any Emacs operations in this or
+    other Doom CLI shell scripts (default: first emacs found in $PATH).
+  
+  $EMACSDIR
+    The location of your Doom Emacs installation (defaults to ~/.config/emacs or
+    ~/.emacs.d; whichever is found first). This is *not* your private Doom
+    configuration. The --emacsdir option also sets this variable.
+  
+  $DOOMDIR
+    The location of your private configuration for Doom Emacs (defaults to
+    ~/.config/doom or ~/.doom.d; whichever it finds first). This is *not* the
+    place you've cloned doomemacs/doomemacs to. The --doomdir option also sets
+    this variable.
+  
+  $DOOMPAGER
+    The pager to invoke for large output (default: "less +g"). The --pager
+    option also sets this variable.
+  
+  $DOOMPROFILE
+    Which Doom profile to activate (default: "_@0"). The --profile option
+    also sets this variable.
+  
+  $DOOMPROFILELOADFILE
+    Doom generates a profile loader script on 'doom sync' or 'doom profiles
+    sync'. By default, this file is written to and loaded from
+    $EMACSDIR/profiles/load.el. Set this envvar to change that. Note that this
+    envvar must be in scope for both interactive and non-interactive sessions
+    for it to be effective. This is especially useful for folks on Nix/Guix, who
+    have deployed Doom to a read-only directory.
+  
+    Note: this file *must* end with a .el extension. It will be byte-compiled
+    after it is generated.
+  
+  $DOOMPROFILELOADPATH
+    A colon-delimited (semi-colon on Windows) list of profile config files or
+    directories under which Doom will search for implicit profiles. See
+    `var:doom-profile-load-path' for its default value.
+  
+EXIT CODES:
+  0        Successful run
+  1        General internal error
+  2        Error with Emacs/Doom install or execution context
+  3        Unrecognized user input error
+  4        Command not found, or is incorrect/deprecated
+  5        Invalid, missing, or extra options/arguments
+  6-15     Reserved for Doom
+  16-192   Reserved for the user's extensions
+  254      Successful run (then execute the dynamically generated after-script)
+  255      Uncaught critical errors
+  
+SEE ALSO:
+  https://doomemacs.org               Homepage
+  https://docs.doomemacs.org          Official documentation
+  https://discourse.doomemacs.org     Discourse (discussion & support forum)
+  https://doomemacs.org/discord       Discord chat server
+  https://doomemacs.org/roadmap       Development roadmap
+  https://git.doomemacs.org           Shortcut to Github org
+  https://git.doomemacs.org/todo      Global issue tracker
+  

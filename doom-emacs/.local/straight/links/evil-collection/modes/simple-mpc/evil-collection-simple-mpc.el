@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-collection/modes/simple-mpc/evil-collection-simple-mpc.el

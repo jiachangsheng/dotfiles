@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-collection/modes/explain-pause-mode/evil-collection-explain-pause-mode.el

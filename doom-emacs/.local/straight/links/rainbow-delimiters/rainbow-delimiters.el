@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/rainbow-delimiters/rainbow-delimiters.el

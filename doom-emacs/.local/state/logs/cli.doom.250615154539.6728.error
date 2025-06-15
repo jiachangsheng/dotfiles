@@ -1,0 +1,181 @@
+﻿$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacs-which-key/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/general.el/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/project/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/projectile/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/ws-butler/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/smartparens/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/dtrt-indent/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/better-jumper/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/restart-emacs/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/rainbow-delimiters/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/highlight-numbers/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacs-hide-mode-line/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/nerd-icons.el/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/gcmh/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/compat/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/auto-minor-mode/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/use-package/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/bind-key/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/straight.el/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacsmirror-mirror/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/el-get/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/gnu-elpa-mirror/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/nongnu-elpa/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/melpa/"
+$ "git" "config" "core.autocrlf" "true"
+
+fatal: not in a git directory
+
+[Return code: 128]
+
+$ cd "c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacs-which-key/"
+$ "git" "rev-parse" "HEAD"
+
+fatal: detected dubious ownership in repository at 'C:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacs-which-key'
+'C:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacs-which-key' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	JIA/jiacs (S-1-5-21-1785769128-5011910-987862172-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/emacs-which-key
+
+[Return code: 128]

@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/themes/themes/doom-winter-is-coming-light-theme.el

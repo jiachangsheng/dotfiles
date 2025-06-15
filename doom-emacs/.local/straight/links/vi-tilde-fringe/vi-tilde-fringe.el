@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/vi-tilde-fringe/vi-tilde-fringe.el

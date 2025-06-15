@@ -1,0 +1,73 @@
+;; -*- mode: emacs-lisp; eval: (progn (pp-buffer) (indent-buffer)) -*-
+((def-persp nil nil
+            (def-wconf
+             (((min-height . 4) (min-width . 10) (min-height-ignore . 2)
+               (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2)
+               (min-pixel-height . 72) (min-pixel-width . 80)
+               (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 32)
+               (min-pixel-height-safe . 18) (min-pixel-width-safe . 16))
+              leaf (pixel-width . 656) (pixel-height . 560) (total-width . 82)
+              (total-height . 31) (normal-height . 1.0) (normal-width . 1.0)
+              (buffer "dotfiles" (selected . t) (hscroll . 0)
+                      (fringes 8 8 t nil) (margins nil)
+                      (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0)
+                      (dedicated) (point . 76) (start . 1))
+              (prev-buffers ("*scratch*" 1 1))))
+            (def-params nil) t nil t)
+ (def-persp "main"
+            ((def-buffer "doom-emacs" "c:/Users/jiacs/dotfiles/doom-emacs/"
+                         dired-mode)
+             (def-buffer "dotfiles" "~/" dired-mode))
+            (def-wconf
+             (((min-height . 4) (min-width . 20) (min-height-ignore . 3)
+               (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 4)
+               (min-pixel-height . 72) (min-pixel-width . 160)
+               (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 48)
+               (min-pixel-height-safe . 18) (min-pixel-width-safe . 32))
+              hc (pixel-width . 1920) (pixel-height . 991) (total-width . 240)
+              (total-height . 55) (normal-height . 1.0) (normal-width . 1.0)
+              (combination-limit)
+              (leaf (pixel-width . 960) (pixel-height . 991) (total-width . 120)
+                    (total-height . 55) (normal-height . 1.0)
+                    (normal-width . 0.5)
+                    (parameters
+                     (better-jumper-struct
+                      . #s(better-jumper-jump-list-struct
+                           (0 0
+                              . [nil nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil])
+                           -1)))
+                    (buffer "dotfiles" (selected) (hscroll . 0)
+                            (fringes 3 1 nil nil) (margins nil)
+                            (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0)
+                            (dedicated) (point . 136) (start . 1))
+                    (prev-buffers ("*scratch*" 1 1)))
+              (leaf (last . t) (pixel-width . 960) (pixel-height . 991)
+                    (total-width . 120) (total-height . 55)
+                    (normal-height . 1.0) (normal-width . 0.5)
+                    (parameters
+                     (better-jumper-struct
+                      . #s(better-jumper-jump-list-struct
+                           (0 0
+                              . [nil nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil
+                                     nil nil nil nil nil nil nil nil nil nil nil])
+                           -1)))
+                    (buffer "doom-emacs" (selected . t) (hscroll . 0)
+                            (fringes 3 1 nil nil) (margins nil)
+                            (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0)
+                            (dedicated) (point . 379) (start . 1)))))
+            (def-params nil) nil nil nil))

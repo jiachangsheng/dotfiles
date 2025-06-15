@@ -1,0 +1,1 @@
+c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/expand-region.el/enh-ruby-mode-expansions.el
