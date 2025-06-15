@@ -12,9 +12,6 @@
 ;; And load it with (doom-load-envvars-file "~/.doom.d/myenv").
 
 ("ZES_ENABLE_SYSMAN=1"
- "WT_SESSION=c0168cbe-9f6a-4fc0-ae65-3de5bfb7399e"
- "WT_PROFILE_ID={574e775e-4f2a-5b96-ac1e-a2962a402336}"
- "WSLENV=WT_SESSION:WT_PROFILE_ID:"
  "windir=C:\\Windows"
  "VIRTUAL_ENV_DISABLE_PROMPT=1"
  "USERPROFILE=C:\\Users\\jiacs"
@@ -43,8 +40,8 @@
  "POSH_THEME=C:\\Users\\jiacs\\scoop\\apps\\oh-my-posh\\current\\themes\\takuya.omp.json"
  "POSH_SHELL_VERSION=7.5.1"
  "POSH_SHELL=pwsh"
- "POSH_SESSION_ID=79dfdca3-b0e1-4e59-ba3d-42b1c697fbe8"
- "POSH_CURSOR_LINE=39"
+ "POSH_SESSION_ID=9df42fd8-6387-4584-bf1f-374cac7ec21a"
+ "POSH_CURSOR_LINE=7"
  "POSH_CURSOR_COLUMN=1"
  "PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"
  "PATH=C:\\Program Files\\PowerShell\\7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\PowerShell\\7\\;C:\\Program Files\\Git\\cmd;C:\\Users\\jiacs\\scoop\\apps\\mpv\\current;C:\\Users\\jiacs\\scoop\\apps\\vscodium\\current\\bin;C:\\Users\\jiacs\\scoop\\apps\\python\\current\\Scripts;C:\\Users\\jiacs\\scoop\\apps\\python\\current;C:\\Users\\jiacs\\scoop\\shims;C:\\Users\\jiacs\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\jiacs\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
@@ -57,6 +54,7 @@
  "HOMEPATH=\\Users\\jiacs"
  "HOMEDRIVE=C:"
  "GIT_SSH=C:\\Windows\\System32\\OpenSSH\\ssh.exe"
+ "EFC_6228_1592913036=1"
  "DriverData=C:\\Windows\\System32\\Drivers\\DriverData"
  "CONDA_PROMPT_MODIFIER=False"
  "COMSPEC=C:\\Windows\\system32\\cmd.exe"

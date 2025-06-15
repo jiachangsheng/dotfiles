@@ -1,14 +1,12 @@
 ;; -*- mode: emacs-lisp; eval: (progn (pp-buffer) (indent-buffer)) -*-
-((def-persp nil
-            ((def-buffer ".spacemacs" "c:/Users/jiacs/dotfiles/.spacemacs"
-                         emacs-lisp-mode))
+((def-persp nil ((def-buffer "bin" "~/doom-emacs/bin/" dired-mode))
             (def-wconf
              (((min-height . 4) (min-width . 10) (min-height-ignore . 3)
                (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2)
                (min-pixel-height . 64) (min-pixel-width . 80)
                (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 32)
                (min-pixel-height-safe . 16) (min-pixel-width-safe . 16))
-              leaf (pixel-width . 1920) (pixel-height . 993) (total-width . 240)
+              leaf (pixel-width . 1920) (pixel-height . 991) (total-width . 240)
               (total-height . 62) (normal-height . 1.0) (normal-width . 1.0)
               (buffer "*spacemacs*" (selected . t) (hscroll . 0)
                       (fringes 8 8 nil nil) (margins nil)
@@ -25,7 +23,7 @@
                   (min-pixel-width . 80) (min-pixel-height-ignore . 48)
                   (min-pixel-width-ignore . 32) (min-pixel-height-safe . 16)
                   (min-pixel-width-safe . 16))
-                 leaf (pixel-width . 1920) (pixel-height . 993)
+                 leaf (pixel-width . 1920) (pixel-height . 991)
                  (total-width . 240) (total-height . 62) (normal-height . 1.0)
                  (normal-width . 1.0)
                  (buffer "*spacemacs*" (selected . t) (hscroll . 0)

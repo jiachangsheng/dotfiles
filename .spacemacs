@@ -32,7 +32,8 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(
+   '(windows-scripts
+     markdown
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
@@ -571,3 +572,54 @@ before packages are loaded."
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
+(defun dotspacemacs/emacs-custom-settings ()
+  "Emacs custom settings.
+This is an auto-generated function, do not modify its content directly, use
+Emacs customize menu instead.
+This function is called at the very end of Spacemacs initialization."
+  (custom-set-variables
+   ;; custom-set-variables was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(package-selected-packages
+     '(ace-jump-helm-line ace-link aggressive-indent all-the-icons auto-compile
+                          auto-highlight-symbol bmx-mode centered-cursor-mode
+                          clean-aindent-mode column-enforce-mode company
+                          company-emoji define-word devdocs diminish
+                          dired-quick-sort disable-mouse dotenv-mode drag-stuff
+                          dumb-jump edit-indirect elisp-def elisp-demos
+                          elisp-slime-nav emoji-cheat-sheet-plus emr eval-sexp-fu
+                          evil-anzu evil-args evil-cleverparens evil-collection
+                          evil-easymotion evil-escape evil-evilified-state
+                          evil-exchange evil-goggles evil-iedit-state
+                          evil-indent-plus evil-lion evil-lisp-state evil-matchit
+                          evil-mc evil-nerd-commenter evil-numbers evil-surround
+                          evil-textobj-line evil-tutor evil-unimpaired
+                          evil-visual-mark-mode evil-visualstar expand-region
+                          eyebrowse fancy-battery ggtags gh-md golden-ratio
+                          google-translate helm-ag helm-comint helm-descbinds
+                          helm-make helm-mode-manager helm-org helm-projectile
+                          helm-purpose helm-swoop helm-themes helm-xref hide-comnt
+                          highlight-indentation highlight-numbers
+                          highlight-parentheses hl-todo holy-mode hungry-delete
+                          hybrid-mode indent-guide info+ inspector link-hint
+                          lorem-ipsum macrostep markdown-mode markdown-toc
+                          multi-line nameless open-junk-file org-superstar
+                          overseer page-break-lines paradox password-generator
+                          pcre2el popwin powershell quickrun rainbow-delimiters
+                          restart-emacs space-doc spaceline
+                          spacemacs-purpose-popwin spacemacs-whitespace-cleanup
+                          string-edit-at-point string-inflection symbol-overlay
+                          symon term-cursor toc-org treemacs-evil
+                          treemacs-icons-dired treemacs-persp treemacs-projectile
+                          undo-fu undo-fu-session uuidgen valign vi-tilde-fringe
+                          vmd-mode volatile-highlights vundo wgrep winum
+                          writeroom-mode ws-butler)))
+  (custom-set-faces
+   ;; custom-set-faces was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   )
+  )

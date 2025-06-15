@@ -1,13 +1,8 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("c:/Users/jiacs/dotfiles/.spacemacs" . 510)
- ("c:/Users/jiacs/dotfiles/spacemacs/"
-  (dired-filename . "c:/Users/jiacs/dotfiles/spacemacs/quelpa"))
+(("c:/Users/jiacs/dotfiles/spacemacs/.cache/.custom-settings" . 271)
+ ("c:/Users/jiacs/dotfiles/spacemacs/README.md" . 22277)
+ ("c:/Users/jiacs/dotfiles/spacemacs/" . 21)
+ ("c:/Users/jiacs/dotfiles/README.md" . 877) ("c:/Users/jiacs/dotfiles/" . 1580)
+ ("c:/Users/jiacs/dotfiles/.spacemacs" . 29616)
  ("c:/Users/jiacs/dotfiles/.doom.d/"
-  (dired-filename . "c:/Users/jiacs/dotfiles/.doom.d/config.el"))
- ("c:/Users/jiacs/dotfiles/nvim/"
-  (dired-filename . "c:/Users/jiacs/dotfiles/nvim/init.lua"))
- ("c:/Users/jiacs/dotfiles/.ssh/"
-  (dired-filename . "c:/Users/jiacs/dotfiles/.ssh/id_rsa"))
- ("c:/Users/jiacs/dotfiles/" . 1708)
- ("c:/Users/jiacs/dotfiles/spacemacs/.cache/.custom-settings" . 271)
- ("c:/Users/jiacs/dotfiles/reset.ps1" . 30))
+  (dired-filename . "c:/Users/jiacs/dotfiles/.doom.d/config.el")))

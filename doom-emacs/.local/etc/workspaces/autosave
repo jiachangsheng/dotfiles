@@ -1,47 +1,31 @@
 ;; -*- mode: emacs-lisp; eval: (progn (pp-buffer) (indent-buffer)) -*-
 ((def-persp nil nil
             (def-wconf
-             (((min-height . 4) (min-width . 10) (min-height-ignore . 2)
-               (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2)
+             (((min-height . 4) (min-width . 10) (min-height-ignore . 1)
+               (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2)
                (min-pixel-height . 72) (min-pixel-width . 80)
-               (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 32)
+               (min-pixel-height-ignore . 18) (min-pixel-width-ignore . 24)
                (min-pixel-height-safe . 18) (min-pixel-width-safe . 16))
-              leaf (pixel-width . 656) (pixel-height . 560) (total-width . 82)
-              (total-height . 31) (normal-height . 1.0) (normal-width . 1.0)
-              (buffer ".git" (selected . t) (hscroll . 0) (fringes 8 8 t nil)
-                      (margins nil) (scroll-bars nil 0 t nil 0 t nil)
-                      (vscroll . 0) (dedicated) (point . 81) (start . 1))
-              (prev-buffers ("*scratch*" 1 1))))
+              leaf (last . t) (pixel-width . 128) (pixel-height . 54)
+              (total-width . 16) (total-height . 3) (normal-height . 1.0)
+              (normal-width . 1.0)
+              (buffer " *corfu*" (selected . t) (hscroll . 0)
+                      (fringes 4 4 t nil) (margins nil)
+                      (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0)
+                      (dedicated . t) (point . 1) (start . 1))
+              (prev-buffers ("dot-sy.ps1" 1 449))))
             (def-params nil) t nil t)
  (def-persp "main"
-            ((def-buffer ".gitconfig" "c:/Users/jiacs/dotfiles/.gitconfig"
-                         gitconfig-mode)
-             (def-buffer ".gitignore" "c:/Users/jiacs/dotfiles/.gitignore"
-                         gitignore-mode)
-             (def-buffer "dotfiles" "c:/Users/jiacs/dotfiles/" dired-mode)
-             (def-buffer "packed-refs"
-                         "c:/Users/jiacs/dotfiles/.git/packed-refs"
+            ((def-buffer "dot-sy.ps1" "c:/Users/jiacs/dotfiles/dot-sy.ps1"
                          fundamental-mode)
-             (def-buffer "ORIG_HEAD" "c:/Users/jiacs/dotfiles/.git/ORIG_HEAD"
-                         fundamental-mode)
-             (def-buffer "index" "c:/Users/jiacs/dotfiles/.git/index"
-                         fundamental-mode)
-             (def-buffer "HEAD" "c:/Users/jiacs/dotfiles/.git/HEAD"
-                         fundamental-mode)
-             (def-buffer "FETCH_HEAD" "c:/Users/jiacs/dotfiles/.git/FETCH_HEAD"
-                         fundamental-mode)
-             (def-buffer "description"
-                         "c:/Users/jiacs/dotfiles/.git/description"
-                         fundamental-mode)
-             (def-buffer "config" "c:/Users/jiacs/dotfiles/.git/config"
-                         gitconfig-mode)
-             (def-buffer "COMMIT_EDITMSG"
-                         "c:/Users/jiacs/dotfiles/.git/COMMIT_EDITMSG" text-mode))
+             (def-buffer "README.md" "c:/Users/jiacs/dotfiles/README.md"
+                         gfm-mode)
+             (def-buffer "dotfiles" "c:/Users/jiacs/dotfiles/" dired-mode))
             (def-wconf
              (((min-height . 4) (min-width . 20) (min-height-ignore . 3)
-               (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4)
+               (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 4)
                (min-pixel-height . 72) (min-pixel-width . 160)
-               (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 64)
+               (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 72)
                (min-pixel-height-safe . 18) (min-pixel-width-safe . 32))
               hc (pixel-width . 1920) (pixel-height . 991) (total-width . 240)
               (total-height . 55) (normal-height . 1.0) (normal-width . 1.0)
@@ -53,10 +37,10 @@
                      (better-jumper-struct
                       . #s(better-jumper-jump-list-struct
                            (0 2
-                              . [("c:/Users/jiacs/dotfiles/.git/config" 1
-                                  "ls1i80")
-                                 ("c:/Users/jiacs/dotfiles/.gitconfig" 134
-                                  "rdrpgy")
+                              . [("c:/Users/jiacs/dotfiles/dot-sy.ps1" 1
+                                  "1dgp2y")
+                                 ("c:/Users/jiacs/dotfiles/dot-sy.ps1" 290
+                                  "vh2tnw")
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil nil nil nil nil nil nil nil nil nil nil
@@ -67,31 +51,21 @@
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil])
                            -1)))
-                    (buffer ".gitconfig" (selected . t) (hscroll . 0)
-                            (fringes 8 8 nil nil) (margins nil)
+                    (buffer "dot-sy.ps1" (selected . t) (hscroll . 0)
+                            (fringes 8 8 t nil) (margins nil)
                             (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0)
-                            (dedicated) (point . 134) (start . 1))
-                    (prev-buffers (".gitignore" 1 1) ("*scratch*" 1 1)))
+                            (dedicated) (point . 449) (start . 1))
+                    (prev-buffers ("*Messages*" 1 860) ("*doom*" 1 1548)
+                                  ("dotfiles" 1 257) ("*scratch*" 1 1)))
               (leaf (last . t) (pixel-width . 960) (pixel-height . 991)
                     (total-width . 120) (total-height . 55)
                     (normal-height . 1.0) (normal-width . 0.5)
                     (parameters
                      (better-jumper-struct
                       . #s(better-jumper-jump-list-struct
-                           (0 7
-                              . [("c:/Users/jiacs/dotfiles/.git/config" 1
-                                  "ls1i80")
-                                 ("c:/Users/jiacs/dotfiles/.git/description" 1
-                                  "m2vq2r")
-                                 ("c:/Users/jiacs/dotfiles/.git/FETCH_HEAD" 1
-                                  "gb8qdl")
-                                 ("c:/Users/jiacs/dotfiles/.git/HEAD" 1 "02im1h")
-                                 ("c:/Users/jiacs/dotfiles/.git/index" 1
-                                  "wi1lql")
-                                 ("c:/Users/jiacs/dotfiles/.git/ORIG_HEAD" 1
-                                  "6sz3d8")
-                                 ("c:/Users/jiacs/dotfiles/.git/packed-refs" 1
-                                  "b612ux")
+                           (0 1
+                              . [("c:/Users/jiacs/dotfiles/dot-sy.ps1" 1
+                                  "1dgp2y")
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil nil nil nil nil nil nil nil nil nil nil
@@ -99,14 +73,12 @@
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil nil nil nil nil nil nil nil nil nil nil
                                  nil nil nil nil nil nil nil nil nil nil nil nil
-                                 nil nil nil nil nil nil nil nil nil])
+                                 nil nil nil nil nil nil nil nil nil nil nil nil
+                                 nil nil nil])
                            -1)))
-                    (buffer "dotfiles" (selected) (hscroll . 0)
-                            (fringes 3 1 nil nil) (margins nil)
+                    (buffer "dot-sy.ps1" (selected) (hscroll . 0)
+                            (fringes 8 8 nil nil) (margins nil)
                             (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0)
-                            (dedicated) (point . 439) (start . 1))
-                    (prev-buffers ("packed-refs" 1 1) ("ORIG_HEAD" 1 1)
-                                  ("index" 1 1) ("HEAD" 1 1) ("FETCH_HEAD" 1 1)
-                                  ("description" 1 1) ("config" 1 1)
-                                  ("COMMIT_EDITMSG" 1 1)))))
+                            (dedicated) (point . 290) (start . 1))
+                    (prev-buffers ("README.md" 1 732)))))
             (def-params nil) nil nil nil))

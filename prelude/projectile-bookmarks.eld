@@ -1,1 +1,1 @@
-("~/doom-emacs/" "~/" "~/.emacs.d/")
+("~/" "~/doom-emacs/" "~/.emacs.d/")
