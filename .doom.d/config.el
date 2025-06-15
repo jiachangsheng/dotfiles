@@ -80,3 +80,16 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+;;
+;; Doom 项目识别设置
+(after! projectile
+  ;; 自动发现 dotfiles 中的子项目（nvim、wezterm 等）
+  (setq projectile-project-search-path
+        '(("~/" . 2)
+          ("~/" . 2)
+          ("~/" . 1))))
+
+;; 快速打开 dotfiles 主目录
+(map! :leader
+      :desc "Open dotfiles" "f d"
+      (lambda () (interactive) (find-file "~/dotfiles/")))

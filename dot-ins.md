@@ -8,6 +8,8 @@ git config --global https.proxy http://127.0.0.1:7890
 $env:http_proxy="http://127.0.0.1:7890"
 $env:https_proxy="http://127.0.0.1:7890"
 
+# 递归搜索目录以查找正则表达式模式。
+scoop install ripgrep
 # 拉取dotfiles项目
 git clone https://github.com/jiachangsheng/dotfiles.git
 
@@ -18,7 +20,7 @@ foreach ($m in @("Terminal-Icons", "posh-git", "PSFzf")) {
     }
 }
 # 检查pwsh CLI 是否安装
-foreach ($cli in @("fzf", "zoxide", "oh-my-posh")) {
+foreach ($cli in @("fzf", "zoxide", "oh-my-posh","ripgrep")) {
     if (-not (Get-Command $cli -ErrorAction SilentlyContinue)) {
         scoop install $cli
     }
@@ -41,7 +43,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 scoop install emacs
 # 常用软件下载
 scoop install brave qq wechat telegram jetbrains-toolbox notepadplusplus vscodium
-scoop install ollama mpv vlc listary hibit-uninstaller sharex onecommander
+scoop install ollama mpv vlc listary hibit-uninstaller sharex onecommander everything
 
 # 安装必要的bucket
 scoop bucket add main extras nerd-fonts games versions nonportable
@@ -61,8 +63,6 @@ scoop install glazewm translucenttb zebar
 scoop install equalizer-apo-np peace-np
 
 
-# 递归搜索目录以查找正则表达式模式。
-scoop install ripgrep
 
 
 
