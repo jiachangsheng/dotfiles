@@ -8,8 +8,6 @@ git config --global https.proxy http://127.0.0.1:7890
 $env:http_proxy="http://127.0.0.1:7890"
 $env:https_proxy="http://127.0.0.1:7890"
 
-# 递归搜索目录以查找正则表达式模式。
-scoop install ripgrep
 # 拉取dotfiles项目
 git clone https://github.com/jiachangsheng/dotfiles.git
 
