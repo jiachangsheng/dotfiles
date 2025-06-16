@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/bind-key/bind-key.el

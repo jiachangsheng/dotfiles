@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-nerd-commenter/evil-nerd-commenter-operator.el

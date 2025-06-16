@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-collection/modes/nov/evil-collection-nov.el

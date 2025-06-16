@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-collection/modes/restclient/evil-collection-restclient.el

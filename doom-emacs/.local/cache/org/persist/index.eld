@@ -1,2 +1,0 @@
-;;   -*- mode: lisp-data; -*-
-((:container ((elisp org-element--headline-cache) (elisp org-element--cache) (version "2.3")) :persist-file "19/978908-4a50-41c7-9fe2-2afc13b6a6cf" :associated (:hash "c3d6ecb153cdd19865741c7e1f23f447" :file "c:/Users/jiacs/dotfiles/doom-emacs/docs/index.org" :inode 0) :expiry 30 :last-access 1749970951.645616 :last-access-hr "2025-06-15T15:02:31+0800") (:container ((index "3.2")) :persist-file "f6/577fd0-e97d-472b-8d24-54d630fcf267" :associated nil :expiry never :last-access 1749966904.622446 :last-access-hr "2025-06-15T13:55:04+0800"))

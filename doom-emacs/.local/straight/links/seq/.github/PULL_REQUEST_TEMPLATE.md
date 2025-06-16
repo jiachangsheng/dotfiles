@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/seq/.github/PULL_REQUEST_TEMPLATE.md

@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/expand-region.el/python-el-fgallina-expansions.el

@@ -1,1 +1,0 @@
-c:/Users/jiacs/dotfiles/doom-emacs/.local/straight/repos/evil-collection/modes/imenu-list/evil-collection-imenu-list.el

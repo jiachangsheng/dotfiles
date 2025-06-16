@@ -1,2 +1,0 @@
-;; Generated package description from vundo.el  -*- mode: lisp-data; no-byte-compile: t -*-
-(define-package "vundo" "2.4.0.0.20250417.151603" "Visual undo tree" '((emacs "28.1")) :commit "d09448aa537a63e35a4bc6b38ceb2c168e891342" :authors '(("Yuan Fu" . "casouri@gmail.com")) :maintainer '("Yuan Fu" . "casouri@gmail.com") :keywords '("undo" "text" "editing") :url "https://github.com/casouri/vundo")
