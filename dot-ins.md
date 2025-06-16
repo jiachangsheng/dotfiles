@@ -11,6 +11,9 @@ $env:https_proxy="http://127.0.0.1:7890"
 # 拉取dotfiles项目
 git clone https://github.com/jiachangsheng/dotfiles.git
 
+# 安装必要的bucket
+scoop bucket add main extras nerd-fonts games versions nonportable
+
 # 检查pwsh模块是否安装
 foreach ($m in @("Terminal-Icons", "posh-git", "PSFzf")) {
     if (-not (Get-Module -ListAvailable -Name $m)) {
@@ -42,12 +45,11 @@ scoop install emacs
 # 常用软件下载
 scoop install brave qq wechat telegram jetbrains-toolbox notepadplusplus vscodium
 scoop install ollama mpv vlc listary hibit-uninstaller sharex onecommander everything
-
-# 安装必要的bucket
-scoop bucket add main extras nerd-fonts games versions nonportable
+scoop install fd shellcheck pandoc zip
 
 # 终端或者其它（使用字体的时候要查清楚名称，名称有的时候不一定是fonts里面的名称）
 scoop install nerd-fonts/Hack-NF-Mono
+scoop install nerd-fonts/FiraCode
 # space字体
 scoop install nerd-fonts/SourceCodePro-NF-Mono
 # doom字体,emacs查询字体名称方法<M-: (font-family-list)>

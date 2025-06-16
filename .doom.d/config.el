@@ -17,7 +17,23 @@
 ;;   presentations or streaming.
 ;; - `doom-symbol-font' -- for symbols
 ;; - `doom-serif-font' -- for the `fixed-pitch-serif' face
-;;
+;; ~/.doom.d/config.el
+
+;; 设置主字体
+(setq doom-font (font-spec :family "Fira Code" :size 24))
+
+;; 可变宽字体（如 Org 主要内容用）
+(setq doom-variable-pitch-font (font-spec :family "Cantarell" :size 24))
+
+;; 大字体，演示用
+(setq doom-big-font (font-spec :family "Fira Code" :size 34))
+
+;; 符号字体，常用来显示特殊符号
+(setq doom-symbol-font (font-spec :family "Symbols Nerd Font" :size 24))
+
+;; 衬线字体
+(setq doom-serif-font (font-spec :family "Georgia" :size 24))
+
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
@@ -74,6 +90,8 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(setq url-proxy-services
-      '(("http"  . "127.0.0.1:7890")
-        ("https" . "127.0.0.1:7890")))
+(setq org-latex-compiler "xelatex")
+
+(setq org-latex-pdf-process
+      '("xelatex -interaction nonstopmode -output-directory %o %f"
+        "xelatex -interaction nonstopmode -output-directory %o %f"))  ;; 编译两次防止目录错误
