@@ -35,10 +35,4 @@ git commit -m "更新于 $timestamp" 2>$null
 Write-Host "推送到远程主仓库..." -ForegroundColor Yellow
 git push origin $branch
 
-# 6. 推送子模块（如果存在）
-if (Test-Path ".gitmodules") {
-    Write-Host "推送所有子模块（如有变更）..." -ForegroundColor Yellow
-    git submodule foreach --recursive 'git push || echo "子模块 $name 无需推送。"'
-}
-
 Write-Host "`nGit 仓库同步完成。" -ForegroundColor Green
