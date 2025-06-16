@@ -1,0 +1,4 @@
+git submodule add https://github.com/plexus/chemacs2.git .emacs.d
+git submodule add https://github.com/doomemacs/doomemacs.git doomemacs
+git submodule add https://github.com/syl20bnr/spacemacs.git spacemacs
+git submodule add https://github.com/bbatsov/prelude.git prelude
