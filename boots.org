@@ -97,8 +97,53 @@ scoop install shcheck           # shell 脚本静态分析工具
 scoop install pandoc            # 文档格式转换器
 scoop install zip               # 压缩/解压工具
 scoop install jetbrains-toolbox # JetBrains 工具箱
-scoop install epic              # Epic 游戏启动器
+scoop install games/epic-games-launcher              # Epic 游戏启动器
 #+END_SRC
+
+#+RESULTS:
+#+begin_example
+PowerShell 7.5.1
+╭─ pwsh  ~   main ~2                                                                                   05:45:47 
+╰─❯ scoop install emacs             # Emacs 编辑器
+WARN  'emacs' (30.1) is already installed.
+Use 'scoop update emacs' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:47 
+╰─❯ scoop install vscodium          # 无追踪版 VSCode
+WARN  'vscodium' (1.101.03933) is already installed.
+Use 'scoop update vscodium' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:47 
+╰─❯ scoop install notepadplusplus   # Notepad++
+WARN  'notepadplusplus' (8.8.1) is already installed.
+Use 'scoop update notepadplusplus' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:48 
+╰─❯ scoop install fd                # 快速 find 替代品
+WARN  'fd' (10.2.0) is already installed.
+Use 'scoop update fd' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:48 
+╰─❯ scoop install shcheck           # shell 脚本静态分析工具
+Couldn't find manifest for 'shcheck'.
+╭─ pwsh  ~   main ~2                                                                                   05:45:48 
+╰─❯ scoop install pandoc            # 文档格式转换器
+WARN  'pandoc' (3.7.0.2) is already installed.
+Use 'scoop update pandoc' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:48 
+╰─❯ scoop install zip               # 压缩/解压工具
+WARN  'zip' (3.0) is already installed.
+Use 'scoop update zip' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:48 
+╰─❯ scoop install jetbrains-toolbox # JetBrains 工具箱
+WARN  'jetbrains-toolbox' (2.6.3.43718) is already installed.
+Use 'scoop update jetbrains-toolbox' to install a new version.
+╭─ pwsh  ~   main ~2                                                                                   05:45:48 
+╰─❯ scoop install games/epic-games-launcher              # Epic 游戏启动器
+Installing 'epic-games-launcher' (18.5.0) [64bit] from 'games' bucket
+Downloading https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-18.5.0.msi#/setup.msi_ (177.1 MB)...
+Checking hash of EpicInstaller-18.5.0.msi ... ok.
+Linking ~\scoop\apps\epic-games-launcher\current => ~\scoop\apps\epic-games-launcher\18.5.0
+Running post_install script...ERROR epic-games-launcher requires admin rights to install
+╭─ pwsh  ~   main ~2                                                                                   05:47:07 
+╰─❯
+#+end_example
 
 * 安装文件管理与截图工具
 
@@ -189,7 +234,7 @@ scoop install extras/obs-studio   # 录屏与直播
 scoop install extras/autohotkey   # 自动化脚本
 #+END_SRC
 
-** 网络与设备连接
+* 网络与设备连接
 
 #+BEGIN_SRC shell :results output
 scoop install extras/kdeconnect   # 手机与 PC 通信

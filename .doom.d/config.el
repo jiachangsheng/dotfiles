@@ -20,19 +20,19 @@
 ;; ~/.doom.d/config.el
 
 ;; 设置主字体
-(setq doom-font (font-spec :family "Fira Code" :size 24))
+(setq doom-font (font-spec :family "Fira Code" :size 20))
 
 ;; 可变宽字体（如 Org 主要内容用）
-(setq doom-variable-pitch-font (font-spec :family "Cantarell" :size 24))
+(setq doom-variable-pitch-font (font-spec :family "Cantarell" :size 20))
 
 ;; 大字体，演示用
-(setq doom-big-font (font-spec :family "Fira Code" :size 34))
+(setq doom-big-font (font-spec :family "Fira Code" :size 30))
 
 ;; 符号字体，常用来显示特殊符号
-(setq doom-symbol-font (font-spec :family "Symbols Nerd Font" :size 24))
+(setq doom-symbol-font (font-spec :family "Symbols Nerd Font" :size 20))
 
 ;; 衬线字体
-(setq doom-serif-font (font-spec :family "Georgia" :size 24))
+(setq doom-serif-font (font-spec :family "Georgia" :size 20))
 
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
