@@ -16,24 +16,26 @@ if (Get-Module -ListAvailable -Name Terminal-Icons) {
 }
 
 # 加载 PSReadLine（增强行编辑与历史记录预测）
-if (Get-Module -ListAvailable -Name PSReadLine) {
-    Import-Module PSReadLine
+if ($Host.Name -eq 'ConsoleHost') {
+    if (Get-Module -ListAvailable -Name PSReadLine) {
+        Import-Module PSReadLine
 
-    # PSReadLine 配置
-    Set-PSReadLineOption -EditMode Emacs
-    Set-PSReadLineOption -BellStyle None
-    Set-PSReadLineOption -PredictionViewStyle ListView
-    Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+        # PSReadLine 配置
+        Set-PSReadLineOption -EditMode Emacs
+        Set-PSReadLineOption -BellStyle None
+        Set-PSReadLineOption -PredictionViewStyle ListView
+        Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 
-    # 快捷键绑定
-    Set-PSReadLineKeyHandler -Key Escape -ScriptBlock {
-        [console]::Clear()
-        [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+        # 快捷键绑定
+        Set-PSReadLineKeyHandler -Key Escape -ScriptBlock {
+            [console]::Clear()
+            [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+        }
+
+        Set-PSReadLineKeyHandler -Chord Ctrl+e -Function EndOfLine
+        Set-PSReadLineKeyHandler -Chord Ctrl+b -Function BeginningOfLine
+        Set-PSReadLineKeyHandler -Key Tab -Function TabCompleteNext
     }
-
-    Set-PSReadLineKeyHandler -Chord Ctrl+e -Function EndOfLine
-    Set-PSReadLineKeyHandler -Chord Ctrl+b -Function BeginningOfLine
-    Set-PSReadLineKeyHandler -Key Tab -Function TabCompleteNext
 }
 
 # 加载 PSFzf（fzf 模糊查找集成）
