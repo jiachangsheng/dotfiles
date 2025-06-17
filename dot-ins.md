@@ -7,12 +7,29 @@ git config --global https.proxy http://127.0.0.1:7890
 # 设置软件跟新环境代理
 $env:http_proxy="http://127.0.0.1:7890"
 $env:https_proxy="http://127.0.0.1:7890"
+# 企业包管理（可选）
+winget install Chocolatey.Chocolatey
+# 有道云翻译
+winget install Youdao.YoudaoTranslate
+
+# pwsh>设置管理员权限
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# pwsh>安装scoop
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 # 拉取dotfiles项目
 git clone https://github.com/jiachangsheng/dotfiles.git
 
+# 添加HOME为环境变量,个人配置都在dotfiles里面用git管理
+[System.Environment]::SetEnvironmentVariable("HOME", "C:\Users\ussername\dotfiles", "User")
+
 # 安装必要的bucket
-scoop bucket add main extras nerd-fonts games versions nonportable
+scoop bucket add main
+scoop bucket add extras
+scoop bucket add nerd-fonts
+scoop bucket add games
+scoop bucket add versions
+scoop bucket add nonportable
 
 # 检查pwsh模块是否安装
 foreach ($m in @("Terminal-Icons", "posh-git", "PSFzf")) {
@@ -27,23 +44,10 @@ foreach ($cli in @("fzf", "zoxide", "oh-my-posh","ripgrep")) {
     }
 }
 
-# 企业包管理（可选）
-winget install Chocolatey.Chocolatey
-# 有道云翻译
-winget install Youdao.YoudaoTranslate
-
-# 添加HOME为环境变量,个人配置都在dotfiles里面用git管理
-[System.Environment]::SetEnvironmentVariable("HOME", "C:\Users\ussername\dotfiles", "User")
-
-# pwsh>设置管理员权限
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-# pwsh>安装scoop
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-
 # 安装emacs客户端
 scoop install emacs
 # 常用软件下载
-scoop install brave qq wechat telegram jetbrains-toolbox notepadplusplus vscodium
+scoop install brave qq wechat telegram jetbrains-toolbox notepadplusplus vscodium epic
 scoop install ollama mpv vlc listary hibit-uninstaller sharex onecommander everything
 scoop install fd shellcheck pandoc zip
 
@@ -61,8 +65,6 @@ scoop install nerd-fonts/NerdFontsSymbolsOnly
 scoop install glazewm translucenttb zebar
 # 开源音频管理器
 scoop install equalizer-apo-np peace-np
-
-
 
 
 
