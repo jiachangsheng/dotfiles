@@ -1,0 +1,35 @@
+[2m2025-05-13T01:38:05.681774Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:13.687880Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:18.204422Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:22.314729Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:24.405088Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:25.681894Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:28.243971Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:29.442534Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:32.419901Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:38:41.157845Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:39:11.071267Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-13T01:48:23.243139Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-05-19T03:50:23.457592Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-05-23T06:35:16.028195Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-05-26T07:21:40.770667Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: 操作已被用户取消。 (0x800704C7)
+[2m2025-05-26T07:21:42.465692Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: 操作已被用户取消。 (0x800704C7)
+[2m2025-05-26T07:21:53.793902Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: 操作已被用户取消。 (0x800704C7)
+[2m2025-06-05T08:57:50.707317Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 拒绝访问。 (0x80070005)
+[2m2025-06-09T10:00:12.670719Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: 操作已被用户取消。 (0x800704C7)
+[2m2025-06-09T10:00:21.838203Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: 操作已被用户取消。 (0x800704C7)
+[2m2025-06-10T10:03:31.687284Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `match` at line 213 column 5
+[2m2025-06-16T00:59:08.280256Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
+[2m2025-06-16T00:59:12.456902Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
+[2m2025-06-18T01:00:06.159667Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
+[2m2025-06-18T01:00:08.597634Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
