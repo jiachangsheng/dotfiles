@@ -94,8 +94,12 @@
 
 
 ;; 这行代码是设置 Org Babel 中 sh 类型代码块的默认头参数
-(setq org-babel-default-header-args:sh '((:results . "output")))
+;; (setq org-babel-default-header-args:sh '((:results . "output")))
 ;; 设置 Emacs 内部调用 shell 的默认解释器为 pwsh（即 PowerShell Core）
-(setq shell-file-name "pwsh")
+;; (setq shell-file-name "pwsh")
 ;; 设置 Emacs 中 M-x shell 打开的 交互式 shell 会话 使用 pwsh
-(setq explicit-shell-file-name "pwsh")
+;; (setq explicit-shell-file-name "pwsh")
+
+(global-set-key (kbd "C-c l") #'org-store-link)
+(global-set-key (kbd "C-c a") #'org-agenda)
+(global-set-key (kbd "C-c c") #'org-capture)

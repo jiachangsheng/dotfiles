@@ -33,3 +33,30 @@ Error: 操作已被用户取消。 (0x800704C7)
 [2m2025-06-16T00:59:12.456902Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
 [2m2025-06-18T01:00:06.159667Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
 [2m2025-06-18T01:00:08.597634Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m 无效的窗口句柄。 (0x80070578)
+[2m2025-06-18T14:12:58.798390Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:12:59.203864Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:13:46.326542Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:13:51.659086Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:13:52.383994Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:25:07.754444Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:26:45.107043Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:28:05.680752Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T14:29:46.563617Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
