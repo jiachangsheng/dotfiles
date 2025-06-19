@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open with Emacs]
+@="Open with Emacs"
+"Icon"="C:\\Users\\jia.cs\\scoop\\apps\\emacs\\current\\bin\\runemacs.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open with Emacs\command]
+@="\"C:\\Users\\jia.cs\\scoop\\apps\\emacs\\current\\bin\\runemacs.exe\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open with Emacs]
+@="Open with Emacs"
+"Icon"="C:\\Users\\jia.cs\\scoop\\apps\\emacs\\current\\bin\\runemacs.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open with Emacs\command]
+@="\"C:\\Users\\jia.cs\\scoop\\apps\\emacs\\current\\bin\\runemacs.exe\" \"%V\""
