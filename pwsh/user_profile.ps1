@@ -1,5 +1,5 @@
 # 设置 PowerShell 输入输出编码为 UTF-8
-[Console]::InputEncoding = [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding
+# [Console]::InputEncoding = [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
 # ------------------------
 # 模块加载区域
@@ -23,8 +23,8 @@ if ($Host.Name -eq 'ConsoleHost') {
         # PSReadLine 配置
         Set-PSReadLineOption -EditMode Emacs
         Set-PSReadLineOption -BellStyle None
-        Set-PSReadLineOption -PredictionViewStyle ListView
-        Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+        # Set-PSReadLineOption -PredictionViewStyle ListView
+        # Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 
         # 快捷键绑定
         Set-PSReadLineKeyHandler -Key Escape -ScriptBlock {
@@ -49,10 +49,11 @@ Invoke-Expression (& { $(zoxide init powershell | Out-String) })
 
 # 初始化 oh-my-posh（美化提示符，CLI 版本）
 # 这里使用 scoop 安装路径，自动定位当前主题
-$ompTheme = Join-Path $env:POSH_THEMES_PATH "takuya.omp.json"
-if (Test-Path $ompTheme) {
-    oh-my-posh init pwsh --config $ompTheme | Invoke-Expression
-}
+#
+# $ompTheme = Join-Path $env:POSH_THEMES_PATH "takuya.omp.json"
+# if (Test-Path $ompTheme) {
+#     oh-my-posh init pwsh --config $ompTheme | Invoke-Expression
+# }
 
 # ------------------------
 # 环境变量与别名设置区域
