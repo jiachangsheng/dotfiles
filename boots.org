@@ -14,23 +14,6 @@ pwsh -NoLogo -NoProfile -Command "
 "
 #+END_SRC
 
-* 安装基础工具
-
-#+BEGIN_SRC shell :results output
-winget install Microsoft.PowerShell   # 安装 PowerShell
-winget install Git.Git                # 安装 Git
-#+END_SRC
-
-* 设置代理（Git 与系统）
-
-#+BEGIN_SRC shell :results output
-git config --global http.proxy http://127.0.0.1:7890        # 配置 Git HTTP 代理
-git config --global https.proxy http://127.0.0.1:7890       # 配置 Git HTTPS 代理
-
-$env:http_proxy="http://127.0.0.1:7890"                      # 设置环境变量 HTTP 代理
-$env:https_proxy="http://127.0.0.1:7890"                     # 设置环境变量 HTTPS 代理
-#+END_SRC
-
 * 可选：企业包管理工具与翻译软件
 
 #+BEGIN_SRC shell :results output
@@ -43,6 +26,23 @@ winget install Youdao.YoudaoTranslate      # 安装有道翻译
 #+BEGIN_SRC shell :results output
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser     # 设置执行策略
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression          # 安装 Scoop
+#+END_SRC
+
+* 安装shell和scoop
+
+#+BEGIN_SRC shell :results output
+scoop install pwsh  # 安装 PowerShell
+scoop install git   # 安装 Git
+#+END_SRC
+
+* 设置代理（Git 与系统）
+
+#+BEGIN_SRC shell :results output
+git config --global http.proxy http://127.0.0.1:7890        # 配置 Git HTTP 代理
+git config --global https.proxy http://127.0.0.1:7890       # 配置 Git HTTPS 代理
+
+$env:http_proxy="http://127.0.0.1:7890"                      # 设置环境变量 HTTP 代理
+$env:https_proxy="http://127.0.0.1:7890"                     # 设置环境变量 HTTPS 代理
 #+END_SRC
 
 * 拉取 dotfiles 项目
