@@ -19,6 +19,7 @@ pwsh -NoLogo -NoProfile -Command "
 #+BEGIN_SRC shell :results output
 winget install Chocolatey.Chocolatey       # 安装 Chocolatey
 winget install Youdao.YoudaoTranslate      # 安装有道翻译
+winget install Microsoft.WindowsTerminal   # 如果是w10系统，没有终端就可安装
 #+END_SRC
 
 * 配置 shell 权限与安装 Scoop
