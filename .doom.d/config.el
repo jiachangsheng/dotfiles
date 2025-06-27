@@ -103,3 +103,20 @@
 ;; (global-set-key (kbd "C-c l") #'org-store-link)
 ;; (global-set-key (kbd "C-c a") #'org-agenda)
 ;; (global-set-key (kbd "C-c c") #'org-capture)
+<<<<<<< HEAD
+=======
+ (use-package! go-translate
+  :ensure t
+  :config
+  ;; 简单初始化测试
+  (message "go-translate loaded"))
+
+(defun my/gts-do-translate ()
+  "手动调用 go-translate 的翻译函数。"
+  (interactive)
+  (gts-do-translate))
+
+(map! :leader
+      :desc "翻译当前单词"
+      "t t" #'my/gts-do-translate)
+>>>>>>> 07fb5b30ef8c0efb4c7a4232922921fef21c4189
