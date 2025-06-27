@@ -20,19 +20,19 @@
 ;; ~/.doom.d/config.el
 
 ;; 设置主字体
-(setq doom-font (font-spec :family "Fira Code" :size 20))
+;; (setq doom-font (font-spec :family "Fira Code" :size 20))
 
 ;; 可变宽字体（如 Org 主要内容用）
-(setq doom-variable-pitch-font (font-spec :family "Cantarell" :size 20))
+;; (setq doom-variable-pitch-font (font-spec :family "Cantarell" :size 20))
 
 ;; 大字体，演示用
-(setq doom-big-font (font-spec :family "Fira Code" :size 30))
+;; (setq doom-big-font (font-spec :family "Fira Code" :size 30))
 
 ;; 符号字体，常用来显示特殊符号
-(setq doom-symbol-font (font-spec :family "Symbols Nerd Font" :size 20))
+;; (setq doom-symbol-font (font-spec :family "Symbols Nerd Font" :size 20))
 
 ;; 衬线字体
-(setq doom-serif-font (font-spec :family "Georgia" :size 20))
+;; (setq doom-serif-font (font-spec :family "Georgia" :size 20))
 
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
@@ -100,6 +100,6 @@
 ;; 设置 Emacs 中 M-x shell 打开的 交互式 shell 会话 使用 pwsh
 (setq explicit-shell-file-name "pwsh")
 
-(global-set-key (kbd "C-c l") #'org-store-link)
-(global-set-key (kbd "C-c a") #'org-agenda)
-(global-set-key (kbd "C-c c") #'org-capture)
+;; (global-set-key (kbd "C-c l") #'org-store-link)
+;; (global-set-key (kbd "C-c a") #'org-agenda)
+;; (global-set-key (kbd "C-c c") #'org-capture)
