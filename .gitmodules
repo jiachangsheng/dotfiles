@@ -13,3 +13,7 @@
 [submodule "prelude"]
 	path = prelude
 	url = https://github.com/bbatsov/prelude.git
+
+[submodule "centure"]
+	path = centure
+	url = https://github.com/seagle0128/.emacs.d.git

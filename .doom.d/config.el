@@ -100,6 +100,20 @@
 ;; 设置 Emacs 中 M-x shell 打开的 交互式 shell 会话 使用 pwsh
 (setq explicit-shell-file-name "pwsh")
 
-(global-set-key (kbd "C-c l") #'org-store-link)
-(global-set-key (kbd "C-c a") #'org-agenda)
-(global-set-key (kbd "C-c c") #'org-capture)
+;; (global-set-key (kbd "C-c l") #'org-store-link)
+;; (global-set-key (kbd "C-c a") #'org-agenda)
+;; (global-set-key (kbd "C-c c") #'org-capture)
+ (use-package! go-translate
+  :ensure t
+  :config
+  ;; 简单初始化测试
+  (message "go-translate loaded"))
+
+(defun my/gts-do-translate ()
+  "手动调用 go-translate 的翻译函数。"
+  (interactive)
+  (gts-do-translate))
+
+(map! :leader
+      :desc "翻译当前单词"
+      "t t" #'my/gts-do-translate)
