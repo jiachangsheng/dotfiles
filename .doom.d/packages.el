@@ -49,3 +49,6 @@
 ;; (unpin! t)
 
 (package! go-translate)
+(use-package ue
+  :init   (ue-global-mode +1)
+  :config (define-key ue-mode-map (kbd "C-c u") 'ue-command-map))

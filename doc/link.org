@@ -11,3 +11,51 @@
 #+begin_src shell :results output
 New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim" -Target "$pwd"
 #+end_src
+
+
+#+begin_src emacs-lisp :tangle yes
+(+ 2 2)
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+(+ 2 (+ 1 1))
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+(+ 3 (+ 1 2))
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+(insert "Hello!")
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+(insert "Hello" "world")
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+
+(setq my-name "Bastien.")
+(defun hello() (insert "hello,i am " my-name))
+(hello)
+#+end_src
+
+#+begin_src emacs-lisp :tangle yes
+(let ((local-name "you"))
+  (switch-to-buffer-other-window "*test*")
+  (erase-buffer)
+  (hello local-name)
+  (other-window 1))
+#+end_src
+
+#+RESULTS:
+
+#+begin_src emacs-lisp :tangle yes
+(format "Hello %s!\n" "visutor")
+#+end_src

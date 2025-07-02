@@ -195,3 +195,9 @@ scoop install extras/autohotkey   # 自动化脚本
 #+BEGIN_SRC shell :results output
 scoop install extras/kdeconnect   # 手机与 PC 通信
 #+END_SRC
+
+* 显卡驱动
+
+#+BEGIN_SRC shell :results output
+scoop install extras/tinynvidiaupdatechecker   # 英伟达显卡驱动更新程序
+#+END_SRC
